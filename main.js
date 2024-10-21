@@ -42,7 +42,7 @@ const data = [
     { id: "7", name: "Bilbo", occupation: "None", age: "111" }
   ];
    
-  age
+
   data.sort((a, b) => a.age - b.age);
   
   const filteredData = data.filter(person => person.age <= 50);
